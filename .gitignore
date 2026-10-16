@@ -1,0 +1,50 @@
+Final_System_Peter_Adel.zip
+*.zip
+*.bak
+*.wlf
+*.cr.mti
+do_files/work/
+prj/sys/
+
+
+# QuestaSim / ModelSim
+work/
+do_files/work/
+transcript
+modelsim.ini
+*.wlf
+*.vcd
+
+# SpyGlass (ملفات مولّدة)
+prj/sys/.SG_SaveRestoreDB/
+prj/sys/.design_setup_db/
+prj/sys/.tmp_*/
+prj/sys/Run_Summary/
+prj/sys/cdc/*/spyglass_spysch/
+prj/sys/cdc/*/spyglass.vdb*
+prj/sys/lint/*/spyglass_spysch/
+prj/sys/lint/*/spyglass.vdb*
+prj/sys/.project_*
+prj/sys/.CurrentSessionRunSummaryFiles
+.sg.env
+spyglass-1/
+
+# مكتبات الـ PDK (NDA)
+*.lib
+*.db
+*.lef
+*.tlef
+*.gds
+*.tf
+*.itf
+
+# Synopsys / Cadence
+*.ddc
+*.svf
+command.log
+*.enc.dat/
+
+# ملفات النظام
+.DS_Store
+Thumbs.db
+*.swp

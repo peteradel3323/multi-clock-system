@@ -1,0 +1,4 @@
+waive -msg {4 synchronizers (sys_top_test.U0_fifo.u_w2r_sync.meta_flop[3:0]) converge on combinational gate 'sys_top_test.fifo_empty'. Gray encoding check: 'DISABLED'}  -rule {  {Ac_conv02}  }  -comment {Created by ICer on 01-Oct-2026 06:07:22}  -exact 
+waive -rule {  {Ac_unsync01}  }  -comment {Created by ICer on 01-Oct-2026 06:19:07}  -exact 
+waive -rule {  {Ac_unsync02}  }  -comment {Created by ICer on 01-Oct-2026 06:19:07i waved it since the tx is the one who sends the re_inc and fifo will not read if it was empty }  -exact 
+waive -rule {  {Ac_unsync02}  }  -comment {Created by ICer on 01-Oct-2026 06:19:07i waved it since the tx is the one who sends the re_inc and fifo will not read if it was empty }  -exact 
